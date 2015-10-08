@@ -1,0 +1,24 @@
+This is used to extract nouns in Wordnet under Event Synset, which are hyponyms of Synset 'Event'.
+
+=========
+Statistics(Event synset)
+8102 synsets. 13515 lemma_names. 
+After repetition filtering, 11044 distinct lemma_names are left in the dictionary.
+
+
+
+=========
+Statistics(Person synset)
+10297 synsets. 17871 Distinct lemma_names. 
+
+
+
+=========
+Statistics(Organization synset)
+1262 synsets. 2025 Distinct lemma_names. 
+
+
+
+=========
+Statistics(Physical_entity synset)
+35865 synsets. 55425 Distinct lemma_names. 

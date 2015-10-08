@@ -1,0 +1,20 @@
+Implementation of 'Template-based IE without the Templates' on Tweets
+==============================================
+Authors: Yanxia Qin
+
+contact: qolina@gmail.com
+
+Example Usage:
+-------------
+1. Preprocess tweet text file (non-Eng tweets filtering, normalization)
+2. NER+POS (twitter NLP tools by Alan Ritter)
+Average time per tweet = 0.0535215378005s
+
+3. extracting event patterns (POS-tagged, NE recognized tweet text + wordNet Event synset noun dictionary)
+
+4. event pattern clustering
+...4.1 LDA clustering
+       LDA tool : GibbsLDA++-0.2 from http://sourceforge.net/projects/gibbslda/ 
+
+...4.2 Agglomerative clustering
+       self implemented
